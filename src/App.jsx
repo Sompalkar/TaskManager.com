@@ -9,7 +9,7 @@ import Task from "./todoInput/Task";
 import axios from "axios";
 import EditTodo from "./EditTodo.jsx";
 
-axios.defaults.baseURL='http://localhost:4000';
+axios.defaults.baseURL='https://taskmanager-swfb.onrender.com';
 axios.defaults.withCredentials =true;
 
 function App() {
